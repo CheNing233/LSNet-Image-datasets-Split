@@ -75,6 +75,18 @@ python style_cluster_script.py
 - `sprites/cluster_XXX*.png`：每个簇的精灵图（若启用，图片多会分页）
 - `clusters/cluster_XXX/*`：按簇归档后的文件（仅当 `DRY_RUN=False`）
 
+重点是`threshold_sweep.png`，示例如下：
+
+![threshold_sweep](example/threshold_sweep.png)
+
+观察扫参得到的期望簇数，你也不希望突然给你分成100多个类吧
+
+设置`EXPECTED_N_CLUSTERS`卡在一个你舒适的值，一般10个类左右
+
+再高精度也不够了
+
+至于精灵图是拿来看的，没有其他东西了
+
 ### 关键配置项（建议先了解）
 
 - **安全模式**：`DRY_RUN=True` 只打印计划操作；确认无误后再设为 `False`
