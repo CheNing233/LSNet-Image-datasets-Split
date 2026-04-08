@@ -2,7 +2,7 @@
 
 一个基于 **Kaloscope-2.0** 的“画风相似度”数据集拆分工具：通过提取图片风格特征并聚类/分组，辅助把数据集按画风相近性进行整理与拆分（例如划分训练集/验证集，或按风格归档）。
 
-本项目使用的 `Kaloscope` 是 `spawner1145` 设计的画风分类聚类模型（https://github.com/spawner1145/comfyui-lsnet）
+本项目使用的 `Kaloscope` 是 `spawner1145` 设计的画风分类聚类模型（[https://github.com/spawner1145/comfyui-lsnet](https://github.com/spawner1145/comfyui-lsnet)）
 
 本仓库的**核心入口**是 `style_cluster_script.py`（离线脚本流程，Python），不包含 GUI / ComfyUI 节点实现。
 
