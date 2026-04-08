@@ -1,0 +1,33 @@
+#
+# Dependencies for `style_cluster_script.py`
+#
+# Notes:
+# - This script imports `lsnet_model/ska.py`, which depends on Triton.
+# - Use `pip install -r requirements.txt` (Windows / PowerShell) as in README.
+#
+
+# Core numeric + ML stack
+numpy>=1.19.0
+torch>=2.4.1
+torchvision>=0.11.0
+
+# Model + preprocessing
+timm>=1.0.20
+Pillow>=8.0.0
+
+# Clustering + visualization
+scikit-learn>=1.0.0
+matplotlib>=3.3.0
+
+# Triton (needed by `lsnet_model/ska.py`)
+triton-windows; sys_platform == 'win32'
+
+# Optional (not required by `style_cluster_script.py`, keep commented unless you need them)
+# tqdm>=4.60.0
+# wandb
+# einops>=0.8.1
+# fvcore
+# easydict
+# yacs
+# scikit-image
+# tensorboard>=2.8.0
