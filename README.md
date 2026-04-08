@@ -1,6 +1,8 @@
-# lsnet-datasets-split
+# LSNet-Image-datasets-Split
 
 一个基于 **Kaloscope-2.0** 的“画风相似度”数据集拆分工具：通过提取图片风格特征并聚类/分组，辅助把数据集按画风相近性进行整理与拆分（例如划分训练集/验证集，或按风格归档）。
+
+本项目使用的 `Kaloscope` 是 `spawner1145` 设计的画风分类聚类模型（https://github.com/spawner1145/comfyui-lsnet）
 
 本仓库的**核心入口**是 `style_cluster_script.py`（离线脚本流程，Python），不包含 GUI / ComfyUI 节点实现。
 
@@ -124,3 +126,7 @@ python style_cluster_script.py
 
 如果 README 中的示例命令与你本地环境不一致，请以 `--help` 输出为准，并欢迎提 issue/PR 补充可复现步骤。
 
+## Thanks
+
+- [spawner1145](https://github.com/spawner1145)
+- [heathcliff01](https://huggingface.co/heathcliff01)
