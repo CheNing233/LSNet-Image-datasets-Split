@@ -117,7 +117,9 @@ python style_cluster_script.py
 
 ### “最新模型”参考
 
-最新模型与对齐信息可参考 spawner 的仓库（但这里并不常更新）：https://github.com/spawner1145/comfyui-lsnet
+最新模型与对齐信息可参考 spawner 的仓库：https://github.com/spawner1145/comfyui-lsnet
+
+本项目仓库会落后于最新模型
 
 ## FAQ / 排错
 
